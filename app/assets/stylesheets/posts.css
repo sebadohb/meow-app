@@ -1,0 +1,44 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .sidebar {
+  background-color: #caf7e3;
+  width: 300px;
+  height: 100vh;
+}
+
+.wrapper .sidebar .sidebar-header {
+  height: 100px;
+  padding: 0 20px;
+}
+
+.wrapper .sidebar .sidebar-main {
+  height: calc(100vh - 100px);
+  background-color: #387c6d;
+  padding: 0 20px;
+}
+
+.wrapper .main {
+  background-color: #edffec;
+  width: calc(100vw - 300px);
+}
+
+.wrapper .main .main-header {
+  height: 100px;
+  margin: 0 40px;
+}
+
+.wrapper .main .main-contents {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  margin: 46px;
+}
+
+.wrapper .main .main-bottom {
+  background-color: #f8f5f1;
+  height: 90px;
+}
+/*# sourceMappingURL=posts.css.map */
